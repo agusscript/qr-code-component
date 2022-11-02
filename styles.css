@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-  width: 280px;
-  height: 450px;
+  max-width: 300px;
+  height: 464px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,22 +28,21 @@ body {
 
 img {
   width: 90%;
-  height: 16rem;
   margin-top: 14px;
   border-radius: 10px;
 }
 
-h3 {
+h1 {
   color: hsl(218, 44%, 22%);
   margin-top: 1.4rem;
   font-size: 1.2rem;
-  width: 83%;
+  width: 75%;
 }
 
 p {
   color: hsl(220, 15%, 55%);
-  margin-top: -0.1rem;
-  width: 90%;
+  margin-top: 4px;
+  width: 82%;
 }
 
 .attribution {
@@ -57,6 +56,12 @@ p {
 }
 
 @media (max-height: 580px) {
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 190px) {
   footer {
     display: none;
   }
