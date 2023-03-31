@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Fron End Mentor solution](https://www.frontendmentor.io/solutions/qr-code-component-css-pUwg-Wilps)
-- [Live site](https://agusscript.github.io/QR-code-component/)
+- [Live site](https://codepen.io/agusscript/pen/poOmKMV)
 
 ## My process
 
